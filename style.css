@@ -1,0 +1,351 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #20B2AA;
+    color: white;
+
+    font-family: "Times New Roman", Times, serif;
+
+    overflow-x: hidden;
+}
+
+
+
+main {
+    width: calc(100% - 250px);
+    max-width: 1050px;
+
+    margin-left: 215px;
+    margin-right: 35px;
+
+    background-color: #20B2AA;
+}
+
+
+
+.nav {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 180px;
+    height: 100vh;
+
+    background-color: #0B3D2E;
+
+    border-right: 3px solid white;
+
+    padding: 20px;
+
+    z-index: 100;
+}
+
+.nav h2 {
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+
+    margin: 30px 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 20px 0;
+}
+
+.nav a {
+    color: white;
+
+    text-decoration-color: white;
+}
+
+
+.sideleft,
+.sideright {
+    position: fixed;
+
+    top: 0;
+
+    width: 35px;
+    height: 100vh;
+
+    background-image:
+    url("broken-metal-pipes-with-leakage-water-set-vector-illustrations-industrial-pipelines-with-leaks-cartoon-tap-pressure-meter-valve-tube-leaking-isolated-white-plumbing-problem-concept_74855-23971.jpg.avif");
+
+    background-size: 120px 120px;
+    background-repeat: repeat;
+
+    z-index: 50;
+}
+
+.sideleft {
+    left: 180px;
+}
+
+.sideright {
+    right: 0;
+}
+
+
+header {
+    width: 100%;
+
+    min-height: 170px;
+
+    background-color: #0B3D2E;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px 30px;
+
+    gap: 25px;
+}
+
+.pump {
+    width: 280px;
+    height: auto;
+
+    display: block;
+}
+
+.alx {
+    float: right;
+    size: 50px;
+    text-align: left;
+}
+
+.alx h2 {
+    margin: 0;
+
+    font-size: 30px;
+}
+
+
+#home {
+    text-align: center;
+
+    padding: 20px 0;
+}
+
+.pop {
+    display: block;
+    float:right;
+
+    max-width: 100%;
+    width: 200px;
+
+    height: auto;
+
+    margin: 0 auto;
+}
+
+
+hr {
+    width: 80%;
+
+    margin: 25px auto;
+
+    border: none;
+
+    border-top: 2px solid white;
+}
+
+
+.services {
+    padding: 0 30px 20px;
+
+    text-align: center;
+}
+
+.fields {
+    text-align: center;
+
+    margin: 0 0 20px;
+}
+
+.services ul {
+    width: fit-content;
+
+    margin: auto;
+
+    text-align: left;
+
+    font-size: 18px;
+}
+
+
+.cowboys {
+    text-align: center;
+
+    padding: 0 30px;
+}
+
+.cowboys h2,
+.cowboys h3 {
+    color: red;
+}
+
+.cowboys p {
+    font-size: 18px;
+
+    line-height: 1.4;
+}
+
+
+.about {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 30px;
+
+    padding: 10px 30px 25px;
+}
+
+.image2 {
+    width: 150px;
+    height: auto;
+
+    flex-shrink: 0;
+}
+
+.about-content {
+    flex: 1;
+
+    text-align: center;
+}
+
+#bank {
+    margin-top: 0;
+}
+
+.about-content ul {
+    text-align: left;
+
+    line-height: 1.5;
+}
+
+.president {
+    text-align: center;
+
+    font-size: 18px;
+
+    line-height: 1.4;
+}
+
+
+
+.wrapper {
+    text-align: center;
+
+    font-size: 19px;
+
+    margin: 15px 0 25px;
+}
+
+
+
+.license {
+    text-align: center;
+
+    padding: 10px 20px;
+}
+
+.license h2 {
+    font-family: monospace;
+
+    font-size: 18px;
+
+    letter-spacing: 2px;
+
+    color: red;
+}
+
+#ifso {
+    color: red;
+}
+
+#kung {
+    color: white; 
+}
+
+.members {
+    text-align: center;
+
+    padding: 20px;
+}
+
+.kilua {
+    text-align: center;
+}
+
+.members ul {
+    list-style: none;
+
+    padding: 0;
+
+    line-height: 1.6;
+}
+
+.imageall {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.imageall img {
+    width: 180px;
+    height: 150px;
+
+    object-fit: contain;
+}
+
+
+
+
+footer {
+    width: 100%;
+
+    background-color: #0B3D2E;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 25px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 12px 0;
+}
+
+footer a {
+    color: #00aaff;
+}
+
+
